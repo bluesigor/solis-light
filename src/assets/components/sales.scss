@@ -1,0 +1,64 @@
+.sales {
+  padding: 0px 135px 100px;
+  &-container {
+    padding-top: 60px;
+    border-top: 1px solid $benefit-card-border;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 29px;
+      max-width: 470px;
+      &__title {
+        font-family: "Playfair Display", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 39px;
+        color: $nav-link;
+        & > i {
+          color: $home-accent;
+          font-family: "Playfair Display", serif;
+          font-style: italic;
+        }
+      }
+      &__desc {
+        font-family: "Lato Light";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        color: $nav-link;
+        opacity: 0.8;
+      }
+    }
+    &-form {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      min-width: 470px;
+      & > input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid $benefit-card-border;
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.08em;
+        color: $nav-link;
+        opacity: 0.5;
+        padding-bottom: 12px;
+      }
+      &-btn-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
