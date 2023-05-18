@@ -48,6 +48,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    border-top: 1px solid $benefit-card-border;
     &__copyright {
       font-family: "Lato Light";
       font-style: normal;

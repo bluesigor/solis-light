@@ -1,7 +1,7 @@
 .media {
   padding: 0px 235px 120px;
-  width: 100%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
   &-container {
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 26px;
-        color: #ffffff;
+        color: $nav-link;
         opacity: 0.8;
       }
     }

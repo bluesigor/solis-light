@@ -1,22 +1,20 @@
 $bg-main: linear-gradient(
   183.11deg,
-  rgba(9, 18, 33, 30) 46.73%,
-  #161926 63.21%
+  rgba(255, 255, 255, 0) 46.73%,
+  #ffffff 63.21%
 );
+$primary: #ffffff;
 $header-bg: linear-gradient(
     270deg,
-    rgba(22, 25, 38, 0.5) 0%,
-    rgba(22, 25, 38, 0) 24.1%,
-    rgba(22, 25, 38, 0) 47.19%
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.244636) 24.1%,
+    rgba(255, 255, 255, 0) 47.19%
   ),
-  rgba(22, 25, 38, 0.02);
-$nav-link: #ffffff;
-$active-link: linear-gradient(
-  96.73deg,
-  #53f3cd 6.73%,
-  rgba(83, 243, 205, 0) 116.9%
-);
-$home-accent: #689ff2;
-$home-join-btn: #53f3cd;
-$benefit-card-border: #515773;
+  rgba(255, 255, 255, 0.02);
+$nav-link: #262a3f;
+$active-link: #f1897b;
+
+$home-accent: #85bbb1;
+$home-join-btn: #f1897b;
+$benefit-card-border: rgba(228, 228, 228, 1);
 $features-bckg: #161926;

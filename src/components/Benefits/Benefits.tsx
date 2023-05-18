@@ -21,7 +21,10 @@ const Benefits = () => {
         </div>
         <div className="benefits-container-card">
           <h2 className="benefits-container-card__title">
-            The best <i>payments solutions</i>
+            The best{" "}
+            <i>
+              payments <br /> solutions
+            </i>
           </h2>
           <p className="benefits-container-card__desc">
             For all stablecoin payments, from point-of-sale transactions to
@@ -31,7 +34,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-container-card">
           <h2 className="benefits-container-card__title">
-            <i>Treasury</i> and <i>returns</i> for stablecoin stores
+            <i>Treasury</i> and <i>returns</i> <br /> for stablecoin stores
           </h2>
           <p className="benefits-container-card__desc">
             Automate your stablecoin store with instant payments and on-the-fly

@@ -1,4 +1,4 @@
-import quote_icon from "../../assets/photos/quote-icon.svg";
+import quote_icon from "../../assets/photos/quote-icon .svg";
 
 const Quote = () => {
   return (
